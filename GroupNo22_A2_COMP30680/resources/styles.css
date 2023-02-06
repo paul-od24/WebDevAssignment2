@@ -1,0 +1,207 @@
+.banner {
+    background-image: url("../images/senate_banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.total_section {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border: black 1px solid;
+    border-collapse: collapse;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.representTable th, td, tr {
+    padding: 4px;
+    border: black 1px solid;
+    text-align: center;
+}
+
+.leaders {
+    background-image: url("../images/DemvRep.png");
+    border: 2px solid black;
+    max-width: 1000px;
+    min-height: 450px;
+    font-size: 24px;
+    align-items: center;
+    place-content: center;
+    margin: 15px auto;
+    width: 70%;
+    padding: 10px;
+}
+
+.rep {
+    margin-left: 40px;
+}
+
+h3 {
+    margin: 5px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+
+#senatorsSection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.eachSenator {
+    display: none; /* Hidden by default */
+    margin: 5px;
+    border: 1px solid black;
+    min-width: 150px;
+    padding: 5px;
+    background-image: url("../images/america.png");
+    color: white;
+    opacity: 1;
+}
+
+button {
+    background-color: red;
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+/* Popup container - can be anything you want */
+.popup {
+    width: 1030px;
+    border-radius: 6px;
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+    margin: auto;
+    transform: translate(-50%,-50%,);
+    top: 200%;
+    left: 10%;
+    background-color: black;
+    color: white;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: black;
+}
+
+/* The "show" class is added to divs from the filter() function */
+.show {
+  display: block;
+}
+
+#senatorInfo {
+    min-height: 550px;
+}
+
+.state {
+    cursor: default;
+    background-color: blue;
+    color: white;
+    border-color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 50px;
+}
+
+.state li {
+    list-style-type: none;
+    margin: 20px;
+    background-color: blue;
+    margin: 5px;
+    padding: 5px;
+}
+
+#drop_content {
+    display: none;
+    left: 24.85%;
+    max-width: 900px;
+}
+
+.state:hover #drop_content {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    background-color: blue;
+}
+
+.filters {
+    display: flex;
+}
+
+#noData {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+/* The "hide" class is added to popup when the close button is clicked */
+.hide {
+    display: none;
+}
+
+.container{
+    width: 300px; 
+    margin: 10px;
+
+}
+.left {
+    display: inline-flex;
+    width: 300px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    text-transform: uppercase;
+    padding: 4px;
+}
+
+.left .rank {
+    padding-left: 40px;
+}
+
+.left p {
+    padding: 4px;
+    text-align: center;
+}
+
+#resetButton {
+    margin-top: 8px;
+}
+
+#debug {
+    color: limegreen;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.debug_{
+    text-align: center;
+}
