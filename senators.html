@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel = stylesheet type ="text/css" href="./resources/reset.css">
+        <link rel = stylesheet type ="text/css" href="./resources/styles.css">
+        <script type ="text/javascript" src="./resources/senators.js"></script>
+        <title>United States Senate</title>
+    </head>
+    
+    <body>
+        <nav>
+            <p>United States Senate</p>
+        </nav>
+        
+        <div class="banner"></div>
+        
+        <div class="total_section">
+            <div id="total_table"></div>
+        </div>
+        
+        <div class="debug_">
+            <span id="debug"></span>
+        </div>
+        
+        <div class="leaders">
+            <h3>Senate Leadership</h3>
+            <div id="partyList"></div>
+        </div>
+        
+        <!-- Filters section of the webpage -->
+        <div class="container">
+            <div class = "filters">
+                <div>
+                    <div class="left">
+                        <div class="party"><p>Party</p>
+                            <div id='partyFilter'></div>
+                        </div>
+
+                        <div class="rank"><p>Rank</p>
+                            <div id='rankFilter'></div>
+                        </div>
+                    </div>
+                </div>
+
+                    <ul class="state">
+                        <li class="states_menu">States</li>
+                        <ul id="dropdown">
+                            <li>
+                                <ul id="drop_content">
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+            </div>
+            
+            <button id="resetButton" type="button" onclick="senatorInfo(uniqueLists())">Reset Filters</button>
+            
+        </div>
+        
+        <div id="senatorInfo">
+            <div id="popup"></div>
+            <div id="senatorsSection"></div>
+            <div id="detailedInfo"></div>
+            <div id="noData"></div>
+        </div>
+        
+    </body>
+</html>
