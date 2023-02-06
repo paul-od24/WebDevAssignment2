@@ -90,7 +90,7 @@ button {
     text-align: center;
     font-size: 60px;
     margin: auto;
-    transform: translate(-50%,-50%,);
+    transform: translate(20%, -80%);
     top: 200%;
     left: 10%;
     background-color: black;
